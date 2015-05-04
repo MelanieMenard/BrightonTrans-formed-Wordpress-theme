@@ -1,0 +1,85 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+Here is where we declare all our variables like colors, fonts,
+base values, and defaults. We want to make sure this file ONLY
+contains variables that way our files don't get all messy.
+No one likes a mess.
+
+******************************************************************/
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+
+/* default bones colors */
+
+$meta-gray:         #9fa6b4;
+$blue:              #2980b9;
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+
+/* theme colours */
+
+$black:             #000;
+$white:             #fff;
+
+$black90:           rgba(0, 0, 0, 0.9);
+$white90:           rgba(255, 255, 255, 0.9);
+$white70:           rgba(255, 255, 255, 0.7);
+$white50:           rgba(255, 255, 255, 0.5);
+
+$dark-gray:			#333;
+$mid-dark-gray:     #777;
+$mid-gray:          #bbb;
+$gray:              #dedede;
+$light-gray:        #eee;
+
+$purple-candy:		#BDA0CB;
+
+/* Elements styles */
+
+$Page-background-colour: $black;
+
+$header-footer-bg-color-no-rgba: $black;
+$header-footer-bg-color: $black90;
+$header-footer-text-color: $white;
+
+$menu-dropdown-bg-color-no-rgba: $black;
+$menu-dropdown-bg-color: $black90;
+
+$nav-hover-bg-color-no-rgba: $white;
+$nav-hover-bg-color: $white90;
+$nav-hover-text-color: $black;
+
+$content-bg-color-no-rgba: $white;
+$content-bg-color: $white90;
+$content-text-color: $dark-gray;
+
+/* default bones style used for editors */
+$text-color:        $dark-gray;
+
+$link-color:        $content-text-color;
+$link-hover:        darken($link-color, 9%);
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+
+
+/* Use if no rgba background colours */
+$header-footer-opacity: 0.9;
+$content-opacity: 0.9;
+
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/

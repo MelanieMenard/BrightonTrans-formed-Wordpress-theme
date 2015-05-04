@@ -1,0 +1,79 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+
+/*********************
+HEADER STYLES
+*********************/
+
+.header {
+
+	/*MM: cheat to push nav down when header gets higher for larger screens */
+	.top-nav {
+		margin-top: 65px;
+	}
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#content.contact {
+	margin-top: 180px;
+
+	.hentry {
+		margin-bottom: 180px;
+	}
+}
+	
+#content.accessibility {
+	margin-top: 70px;
+
+	.hentry {
+		margin-bottom: 70px;
+	}
+}
+	
+#content.home {
+	margin-top: 50px;
+
+	.hentry {
+		margin-bottom: 50px;
+	}
+
+	.entry-content {
+		padding: 40px;
+	}
+	
+	img#lotteryFunded {
+		margin: 0 0 0 30px;
+		display: inline;
+		float: right;
+	}	
+}
+
+#content.stories {
+	margin-top: 50px;
+
+	.hentry {
+		margin-bottom: 50px;
+	}
+
+	.entry-content {
+	
+		a {
+			font-size: 40px;
+			line-height: 40px;
+		}
+	}
+}
+
+
+
